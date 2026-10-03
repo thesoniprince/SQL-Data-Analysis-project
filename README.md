@@ -44,7 +44,6 @@ SQL-Data-Analysis-project/
 ├── EDA/                         # Exploratory scripts 01-06
 ├── Advance Analysis/            # Advanced scripts 07-13
 ├── All Scripts/                 # Every script in one place
-├── images/                      # Charts used in the report
 ├── Analysis_Report.md           # Senior-analyst style report
 └── README.md
 ```
@@ -56,7 +55,7 @@ SQL-Data-Analysis-project/
 ```
 dim_customers ──┐
                 ├──< fact_sales >──┬── dim_products
-(customer_key)  │   (order lines)  │   (product_key)
+
 ```
 
 | Table | Grain | Rows | Key columns |
